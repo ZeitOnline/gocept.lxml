@@ -12,7 +12,7 @@ setup(
     author = "Christian Zagrodnick",
     author_email = "cz@gocept.com",
     description = "Primarily proivdes zope3 interface definitions for lxml",
-    long_description = file(os.path.join(
+    long_description = open(os.path.join(
         os.path.dirname(__file__), 'src', 'gocept', 'lxml', 'README.txt')
         ).read(),
     license = "ZPL 2.1",
