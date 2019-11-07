@@ -1,6 +1,5 @@
 # Copyright (c) 2007 gocept gmbh & co. kg
 # See also LICENSE.txt
-# $Id$
 
 import lxml.etree
 import lxml.objectify
@@ -9,7 +8,7 @@ import lxml.objectify
 objectify_parser = lxml.etree.XMLParser(remove_blank_text=True)
 objectify_parser.setElementClassLookup(
     lxml.etree.ElementNamespaceClassLookup(
-    lxml.objectify.ObjectifyElementClassLookup()))
+        lxml.objectify.ObjectifyElementClassLookup()))
 
 
 def fromstring(s):
