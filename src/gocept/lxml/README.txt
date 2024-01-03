@@ -49,6 +49,7 @@ There is a helper for creating objectifieds from file handles in
 And parse it:
 
 >>> xml = gocept.lxml.objectify.fromfile(xml_file)
+>>> xml_file.close()
 >>> xml
 <Element {http://namespaces.zope.org/zope}configure at ...>
 

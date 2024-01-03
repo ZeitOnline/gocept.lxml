@@ -8,10 +8,10 @@ from setuptools import setup, find_packages
 
 setup(
     name = 'gocept.lxml',
-    version = "0.2.1dev",
+    version = "0.3.1",
     author = "Christian Zagrodnick",
     author_email = "cz@gocept.com",
-    description = "Primarily proivdes zope3 interface definitions for lxml",
+    description = "Primarily provides zope3 interface definitions for lxml",
     long_description = open(os.path.join(
         os.path.dirname(__file__), 'src', 'gocept', 'lxml', 'README.txt')
         ).read(),

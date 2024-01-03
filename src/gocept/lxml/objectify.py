@@ -6,7 +6,7 @@ import lxml.objectify
 
 
 objectify_parser = lxml.etree.XMLParser(remove_blank_text=True)
-objectify_parser.setElementClassLookup(
+objectify_parser.set_element_class_lookup(
     lxml.etree.ElementNamespaceClassLookup(
         lxml.objectify.ObjectifyElementClassLookup()))
 
