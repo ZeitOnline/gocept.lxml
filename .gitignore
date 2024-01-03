@@ -6,3 +6,4 @@
 .installed.cfg
 /bin/test
 gocept.lxml.egg-link
+/dist
