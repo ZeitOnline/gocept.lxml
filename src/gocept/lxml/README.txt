@@ -44,11 +44,12 @@ There is a helper for creating objectifieds from file handles in
 >>> filename = os.path.join(
 ...     os.path.dirname(__file__),
 ...     'ftesting.zcml')
->>> xml_file = file(filename)
+>>> xml_file = open(filename)
 
 And parse it:
 
 >>> xml = gocept.lxml.objectify.fromfile(xml_file)
+>>> xml_file.close()
 >>> xml
 <Element {http://namespaces.zope.org/zope}configure at ...>
 

@@ -1,0 +1,9 @@
+.tox/
+/.venv
+*.pyc
+/eggs
+/src/*.egg-info
+.installed.cfg
+/bin/test
+gocept.lxml.egg-link
+/dist
