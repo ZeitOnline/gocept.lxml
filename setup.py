@@ -8,7 +8,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = 'gocept.lxml',
-    version = "0.3.1",
+    version = "0.3.0+lxml5",
     author = "Christian Zagrodnick",
     author_email = "cz@gocept.com",
     description = "Primarily provides zope3 interface definitions for lxml",
