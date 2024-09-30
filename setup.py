@@ -16,7 +16,7 @@ setup(
         os.path.dirname(__file__), 'src', 'gocept', 'lxml', 'README.txt')
         ).read(),
     license = "ZPL 2.1",
-    url='https://devpi.zeit.de/zeit/default/gocept.lxml',
+    url='https://console.cloud.google.com/artifacts/python/zeitonline-engineering/europe-west3/pypi-zon/gocept.lxml?project=zeitonline-engineering',
 
     packages = find_packages('src'),
     package_dir = {'': 'src'},

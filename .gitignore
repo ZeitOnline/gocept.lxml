@@ -1,5 +1,6 @@
 .tox/
 /.venv
+/venv
 *.pyc
 /eggs
 /src/*.egg-info
